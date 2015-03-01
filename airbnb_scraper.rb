@@ -38,9 +38,14 @@ max_page.times do |i|
   end
 
   page.css('div.text-muted.listing-location.text-truncate').each do |line|
-    details << line.text.strip.split(/ · /)
-  end
+    subarray = line.text.strip.split(/ · /)
 
+    if subarray.length == 3
+      details << subarray
+    else
+      details << [subarray[0], "0 reviews", subarray[1]]
+    end
+  end
 end
 
 # Write data to CSV file
