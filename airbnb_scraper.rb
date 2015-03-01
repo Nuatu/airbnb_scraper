@@ -14,8 +14,6 @@ page.css('div.h5.listing-name').each do |line|
   names << line.text.strip
 end
 
-puts names
-
 prices = []
 page.css('span.h3.price-amount').each do |line|
   prices << line.text
@@ -23,16 +21,14 @@ end
 
 details = []
 page.css('div.text-muted.listing-location.text-truncate').each do |line|
-  details << line.text.strip
+  details << line.text.strip.split(/ · /)
 end
 
-puts details
+# Write data to CSV file
+CSV.open("airbnb_listings.csv", "w") do |file|
+  file << ["Listing Name", "Price", "Room Type", "Reviews", "Location"]
 
-# # Write data to CSV file
-# CSV.open("airbnb_listings.csv", "w") do |file|
-#   file << ["Listing Name", "Price", "Details"]
-
-#   names.length.times do |i|
-#     file << [names[i], prices[i], details[i]]
-#   end
-# end
+  names.length.times do |i|
+    file << [names[i], prices[i], details[i][0], details[i][1], details[i][2]]
+  end
+end

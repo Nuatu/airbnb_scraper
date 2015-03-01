@@ -1,109 +1,19 @@
-Listing Name,Price,Details
-"
-                Best Private Room in Williamsburg!
-              ",59,"
-  Private room · 2 reviews · Williamsburg, Brooklyn
-
-"
-"
-                Sunny Room in Bushwick Paradise
-              ",52,"
-  Private room · Bushwick, Brooklyn
-
-"
-"
-                Bunk in Brooklyn 3
-              ",25,"
-  Shared room · 3 reviews · Crown Heights, Brooklyn
-
-"
-"
-                FAB BKLYN ROOM&BATH&OWN ENTRANCE
-              ",110,"
-  Private room · 52 reviews · Fort Greene, Brooklyn
-
-"
-"
-                Sun-filled room in Boerum Hill
-              ",75,"
-  Private room · 19 reviews · Boerum Hill, Brooklyn
-
-"
-"
-                Sunny 2bdrm Park Slope artist's apt
-              ",145,"
-  Entire home/apt · 10 reviews · Park Slope, Brooklyn
-
-"
-"
-                HUGE, SUNNY ROOM, BLOCK 4RM TRAIN!
-              ",110,"
-  Private room · 3 reviews · Williamsburg, Brooklyn
-
-"
-"
-                Spacious room in Brooklyn.
-              ",75,"
-  Private room · 14 reviews · Crown Heights, Brooklyn
-
-"
-"
-                STUDIO APT SIZE ROOM /OWN BATHROOM
-              ",90,"
-  Private room · 17 reviews · Bedford-Stuyvesant, Brooklyn
-
-"
-"
-                Private Flat Greenpoint Brooklyn
-              ",125,"
-  Entire home/apt · 32 reviews · Greenpoint, Brooklyn
-
-"
-"
-                Sunny & modern  1bd/1ba home
-              ",140,"
-  Entire home/apt · 11 reviews · Clinton Hill, Brooklyn
-
-"
-"
-                Beautiful + Sunny Fort Greene 1BR
-              ",139,"
-  Entire home/apt · 34 reviews · Clinton Hill, Brooklyn
-
-"
-"
-                Garden Apt / Fort Greene Brownstone
-              ",235,"
-  Entire home/apt · 73 reviews · Fort Greene, Brooklyn
-
-"
-"
-                Great Room, Great Hosts, Great Hood
-              ",40,"
-  Private room · 31 reviews · Bushwick, Brooklyn
-
-"
-"
-                Central Wburg Plant-Filled 1BR
-              ",200,"
-  Entire home/apt · 7 reviews · Williamsburg, Brooklyn
-
-"
-"
-                Northside Williamsburg Brooklyn Sm
-              ",55,"
-  Private room · 1 review · Williamsburg, Brooklyn
-
-"
-"
-                Williamsburg Luxury
-              ",235,"
-  Entire home/apt · 68 reviews · Williamsburg, Brooklyn
-
-"
-"
-                Cheap, Cheerful AND Super Cozy !!!!
-              ",45,"
-  Private room · 56 reviews · Crown Heights, Brooklyn
-
-"
+Listing Name,Price,Room Type,Reviews,Location
+"Modern, Well-Appointed Room in NYC!",65,Private room,72 reviews,"Bedford-Stuyvesant, Brooklyn"
+Option of 2 Full Beds + Roof Deck,58,Private room,84 reviews,"Bushwick, Brooklyn"
+Lively loft!,49,Private room,70 reviews,"Williamsburg, Brooklyn"
+"BEST DEAL IN BROOKLYN, FULL SIZE BD",45,Private room,52 reviews,"East New York, Brooklyn"
+"Huge Brooklyn Loft w/Deck, NYC View",65,Private room,41 reviews,"Bedford-Stuyvesant, Brooklyn"
+#3~Studio Suite-10 mins Manhattan!,99,Entire home/apt,41 reviews,"Clinton Hill, Brooklyn"
+Spacious Park Slope brownstone,135,Entire home/apt,7 reviews,"Park Slope, Brooklyn"
+Bright Box Factory Loft,50,Private room,51 reviews,"Greenpoint, Brooklyn"
+Sunny Delight with Free Bikes!,60,Private room,7 reviews,"Clinton Hill, Brooklyn"
+Private room. Modern Apartment,60,Private room,68 reviews,"Crown Heights, Brooklyn"
+"Great loft, perfect location",140,Entire home/apt,11 reviews,"Williamsburg, Brooklyn"
+Brooklyn Budget Williamsburg NYC 3,50,Private room,87 reviews,"Williamsburg, Brooklyn"
+Stylish Apt / Bedford Williamsburg,175,Entire home/apt,23 reviews,"Williamsburg, Brooklyn"
+Huge Williamsburg Loft by L train,99,Private room,63 reviews,"Williamsburg, Brooklyn"
+PrivateRoom in Beautiful Brownstone,50,Private room,8 reviews,"Bedford-Stuyvesant, Brooklyn"
+Comfy bed in friendly Homestel #C,33,Shared room,24 reviews,"Bedford-Stuyvesant, Brooklyn"
+LOCATION! & garden window (*for 1*),50,Private room,32 reviews,"Prospect Heights, Brooklyn"
+"Classic, Beautiful Bkln Brownstone",75,Private room,5 reviews,"Crown Heights, Brooklyn"
