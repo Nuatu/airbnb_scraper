@@ -11,8 +11,10 @@ page = Nokogiri::HTML(open(url))
 # Store data in arrays
 names = []
 page.css('div.h5.listing-name').each do |line|
-  names << line.text
+  names << line.text.strip
 end
+
+puts names
 
 prices = []
 page.css('span.h3.price-amount').each do |line|
@@ -21,14 +23,16 @@ end
 
 details = []
 page.css('div.text-muted.listing-location.text-truncate').each do |line|
-  details << line.text
+  details << line.text.strip
 end
 
-# Write data to CSV file
-CSV.open("airbnb_listings.csv", "w") do |file|
-  file << ["Listing Name", "Price", "Details"]
-  
-  names.length.times do |i|
-    file << [names[i], prices[i], details[i]]
-  end
-end
+puts details
+
+# # Write data to CSV file
+# CSV.open("airbnb_listings.csv", "w") do |file|
+#   file << ["Listing Name", "Price", "Details"]
+
+#   names.length.times do |i|
+#     file << [names[i], prices[i], details[i]]
+#   end
+# end
